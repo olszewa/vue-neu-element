@@ -1,0 +1,39 @@
+{
+  "name": "vue-neumorphism-element",
+  "version": "0.0.1",
+  "title": "NeuElement",
+  "description": "Neumorphism / Soft UI easy to customize generic component.",
+  "author": "Marceli Olszewski",
+  "private": false,
+  "main": "dist/vue-neumorphism-element.cjs.js",
+  "module": "dist/vue-neumorphism-element.es.js",
+  "unpkg": "dist/vue-neumorphism-element.js",
+  "scripts": {
+    "build": "bili src/index.js --plugin vue --format umd,cjs,es --exports named --module-name NeuElement"
+  },
+  "keywords": [
+    "vue",
+    "soft-ui",
+    "neumorphism"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.2.0",
+    "@vue/cli-service": "^4.2.0",
+    "vue-template-compiler": "^2.6.11",
+    "bili": "3.4.2",
+    "rollup-plugin-vue": "4.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olszewa/vue-neu-element"
+  },
+  "bugs": {
+    "url": "https://github.com/olszewa/vue-neu-element/issues"
+  },
+  "homepage": "https://github.com/olszewa/vue-neu-element#readme"
+}

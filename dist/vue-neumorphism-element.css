@@ -1,0 +1,1 @@
+.neu-element-surrounded{position:relative;display:flex;justify-content:center;align-items:center}.neu-element-surrounded:after{display:flex;content:"";position:absolute;height:var(--height);width:var(--width);background-color:transparent;border-radius:var(--borderRadius);box-shadow:var(--boxShadow)}
