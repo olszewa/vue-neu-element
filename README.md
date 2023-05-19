@@ -1,9 +1,10 @@
 # Nuemorphism / Soft UI - Vue generic element
 
+## Project archived!
+
 > Neumorphism / Soft UI easy to customize generic component.
 
-![](screenshot1.png)
-![](screenshot2.png)
+![](screenshot.png)
 
 ## Install
 ```shell
